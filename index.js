@@ -5,7 +5,7 @@ const bodyParser = require("body-parser")
 //firebase
 const functions = require("firebase-functions");
 const admin = require('firebase-admin');
-const serviceAccount = require('./arduinocontrolpage-firebase-adminsdk-50uhx-87445b41e4.json');
+const serviceAccount = require('./arduinocontrolpage-firebase-adminsdk-50uhx-6d0a21ef0a.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
